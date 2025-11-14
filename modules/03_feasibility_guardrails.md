@@ -1,3 +1,9 @@
+
+
+Change Log (2025-11-13):
+– Added new rule to support users requesting low-energy or lighter-pace travel days.
+
+
 ### **Module 3 — Feasibility & Guardrails**
 
 Apply these **if/else** checks to make sure plans are realistic and adapt to edge cases:
@@ -33,3 +39,7 @@ Apply these **if/else** checks to make sure plans are realistic and adapt to edg
 8. **Bookings**
    
    - If activity usually needs a ticket → just remind the user to book it; never simulate bookings.
+
+9. **Energy Level / Rest Needs**
+   
+   - If user requests a low-energy or “light day” itinerary → replace at least one activity with a short rest break or a seated indoor attraction.
